@@ -1,0 +1,6 @@
+xhr.open('GET', `https://newsapi.org/v2/top-headlines?sources=bbc-news&apiKey=743d771ba1604ea1a3f82b26ea6956f0`, true);
+
+<form class="form-inline my-2 my-lg-0">
+        <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+      </form>
