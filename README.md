@@ -1,5 +1,7 @@
 
-# Hacktoberfest 2022
+# Please add file in hacktoberfest folder
+
+## Hacktoberfest 2022
 Anyone can contribute to this repo to make their contribution to open-source on Github
 
 Celebrate HacktoberFest by getting involved in the Open Source Community by completing some simple tasks in this project.
@@ -13,4 +15,5 @@ You can check your progress of HacktoberFest at this link
 https://hacktoberfest.com/profile/
 
 Pull requests marked as spam will not be entitled for a T-shirt.
+
 
