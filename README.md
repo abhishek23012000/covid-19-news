@@ -10,6 +10,7 @@ This is a Public Repository open to all members of the GitHub Community. Any mem
 To get a T-shirt, you must make five pull requests between October 1–31 in any timezone. Pull requests can be to any public repo on GitHub, not just the ones we’ve highlighted. The pull request must contain commits you made yourself.
 
 You can check your progress of HacktoberFest at this link
+https://hacktoberfest.com/profile/
 
 Pull requests marked as spam will not be entitled for a T-shirt.
 
