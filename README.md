@@ -1,5 +1,5 @@
 
-# Please add file in hacktoberfest folder
+
 
 ## Hacktoberfest 2022
 Anyone can contribute to this repo to make their contribution to open-source on Github
