@@ -1,3 +1,10 @@
+// dark mode
+const checkbox = document.getElementById('checkbox');
+
+checkbox.addEventListener('change', ()=>{
+ document.body.classList.toggle('dark-mode');
+})
+
 $(document).ready(function(){
 
     [...document.querySelectorAll('.first-column')].map(column => {
@@ -29,4 +36,3 @@ $(document).ready(function() {
     menu.classList.toggle('fa-times');
     navbar.classList.toggle('active');
   }
-  

@@ -170,3 +170,105 @@ body {
         transform: translateY(var(--direction, -50%))
     }
 }
+
+/* dark mode */
+
+.checkbox {
+  opacity: 0;
+  position: absolute;
+  
+}
+
+.label {
+  width: 50px;
+  height: 26px;
+  background-color:rgb(22, 22, 22);
+  display: flex;
+  border-radius:50px;
+  align-items: center;
+  justify-content: space-between;
+  padding: 5px;
+  position: relative;
+  left: 80px;
+  top: 15px;
+  transform: scale(1.5);
+}
+
+.ball {
+  width: 20px;
+  height: 20px;
+  background-color: white;
+  position: absolute;
+  top: 2px;
+  left: 2px;
+  border-radius: 50%;
+  transition: transform 0.2s linear;
+}
+
+/*  target the elemenent after the label*/
+.checkbox:checked + .label .ball{
+  transform: translateX(24px);
+}
+
+.fa-moon {
+  color: pink;
+}
+
+.fa-sun {
+  color: yellow;
+}
+body.dark-mode {
+  background-color: #292c35;
+}
+body.dark-mode h1, h3 p{
+  color: white;
+
+}
+
+body.dark-mode .navbar{
+  background-color: #292c35 !important;
+  color: white !important;
+}
+
+body.dark-mode .navbar a{
+  color: white !important;
+}
+body.dark-mode .navbar a:hover{
+  color: #0f4763 !important;
+}
+
+body.dark-mode .social{
+  background-color: #292c35 !important;
+  color: white !important;
+}
+body.dark-mode .social a{
+  color: white !important;
+}
+body.dark-mode .social a:hover{
+  color: #0f4763 !important;
+}
+
+body.dark-mode .info{
+  background-color: white !important;
+  color: #292c35 !important;
+  border-radius: 10px;
+  text-align: center;
+}
+body.dark-mode #sym div{
+  color: whitesmoke !important;
+  background-color: #2f3033 !important;
+}
+
+body.dark-mode #pre div{
+  color: whitesmoke !important;
+  background-color: #292c35 !important;
+}
+
+body.dark-mode #cont{
+  background-color: #29292a !important;
+  color: white !important;
+}
+
+body.dark-mode #last h3{
+  color: white !important;
+}
