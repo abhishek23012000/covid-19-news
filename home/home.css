@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+
+
 body {
     /* background: url('vac.jpg') no-repeat center center fixed; */
     background-color: #C9CCD5;
@@ -7,6 +10,21 @@ body {
     display: grid;
     
   }
+
+/* Navbar */
+.nav-link {
+  font-family: 'Raleway', sans-serif;
+}
+
+.homeCovid {
+  width: 100px;
+  
+}
+
+.homelogo{
+   width: 35px;
+   height: 35px;
+}
 
 .info{
   margin-left:28em;
@@ -92,6 +110,17 @@ body {
     margin-bottom: 1.5rem;
     text-align: center;
     background-color: rgb(76, 74, 74);
+  }
+
+  
+  .picture {
+    border: #29292a 3px solid;
+    border-radius: 15%;
+  }
+
+  .picture:hover {
+    transition: .75s;
+    transform: scale(1.15) ;
   }
 
   
