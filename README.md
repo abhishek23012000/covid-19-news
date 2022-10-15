@@ -2,6 +2,15 @@
 
 
 ## Hacktoberfest 2022
+ 
+ ## 📌 Open Source Program
+
+ ### This project is a part of following Open Source Programs
+
+<div align="center">
+  <img src="hacktoberfest.ico" width="25%">
+</div>
+
 Anyone can contribute to this repo to make their contribution to open-source on Github
 
 Celebrate HacktoberFest by getting involved in the Open Source Community by completing some simple tasks in this project.
@@ -15,20 +24,6 @@ You can check your progress of HacktoberFest at this link
 https://hacktoberfest.com/profile/
 
 Pull requests marked as spam will not be entitled for a T-shirt.
-
-## How to Contribute
-- Check for existing issues or create your own issues and wait for it to be assigned to you.
-- Fork the repository
-- Clone the forked repository to your local machine
-- Create a folder with the name of the Hacktoberfest 
-- Add the code to that folder
--make changes in it
-- Open the command prompt and cd into the repository folder
-- Run the following Commands
-```
-
-* Come back to Github and Open a Pull Request
-* We will check if its a valid pull request and merge it
 
 
 
