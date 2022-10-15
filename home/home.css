@@ -26,8 +26,13 @@ body {
    height: 35px;
 }
 
+.spans{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 .info{
-  margin-left:28em;
   margin-top:2rem;
   margin-bottom: 2rem;
   background-color: #22577E;
