@@ -1,3 +1,8 @@
+html{
+  scroll-behavior: smooth;
+}
+
+
 .fa {
    
     font-weight: bolder;
@@ -54,4 +59,15 @@
   .fa-instagram {
     background: #E1306c;
     color: white;
+  }
+
+
+  #toTopBtn {
+    position: fixed;
+    bottom: 26px;
+    right: 39px;
+    z-index: 98;
+    padding: 10px;
+    background-color: #8998b1;
+    border-radius: 25%;
   }
