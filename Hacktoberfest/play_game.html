@@ -1,0 +1,125 @@
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Fighting Game</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body style="background-color: black; color:white">
+        <iframe width="0" height="0" src="sounds/bgm.mp3" frameborder="0" allowfullscreen></iframe>
+    <br>
+
+    <div class="menu">
+        <div class="p1Info">
+
+            <div id="p1Name">Player 1</div>
+            <div id="player1Img">
+                <img id="p1Img" src="images/hero1_start.gif" />
+            </div>
+            
+
+            <div class="playerControls">
+
+                <div class="AttackDiv">
+                    <!-- <h3>Q:</h3> -->
+                    <button onclick="player1.strike(player1, player2, player1.attackDmg)" id="attack">
+                        Q: Attack &#128074;
+                    </button>
+                </div>
+
+                <div class="HealDiv">
+                    <!-- <h3>A:</h3> -->
+                    <button onclick="player1.heal(player1)" id="heal">
+                       A :  Heal 
+                        <i class="fa fa-heart" style="font-size:20px;color:red"></i>
+                    </button>
+                </div>
+
+                <div class="SuperDiv">
+                    <!-- <h3>S:</h3> -->
+                    <button id="super">
+                        S: Super &#9889;
+                    </button>
+                </div>
+
+            </div>
+
+            <div id="p1Health">100</div>
+        </div>
+
+        <button id="play" style="display: none;">Simulate</button>
+
+        <div class="p2Info">
+
+            <div id="p2Name">Player 2</div>
+
+            <div id="player2Img">
+                <img id="p2Img" src="images/hero2_start.gif" />
+            </div>
+            <div class="playerControls">
+                <div class="AttackDiv">
+                    <!-- <h2>P:</h2> -->
+                    <button onclick="player2.strike(player2, player1, player2.attackDmg)" id="attack">
+                        P: Attack &#128074;
+                    </button>
+                </div>
+                <div class="HealDiv">
+                    <!-- <h3>L:</h3> -->
+                    <button onclick="player2.heal(player2)" id="heal">
+                        L : Heal
+                        <i class="fa fa-heart" style="font-size:20px;color:red"></i>
+                    </button>
+                </div>
+                <div class="SuperDiv">
+                    <!-- <h3>K:</h3> -->
+                    <button id="super">
+                        K : Super &#9889;
+                    </button>
+                </div>
+            </div>
+
+            <div id="p2Health">100</div>
+        </div>
+
+    </div>
+    <br>
+
+    <div class="resultContainer">
+        <div id="result"></div>
+        <button id="reset" onclick="game.reset(p1,p2)">Reset</button>
+    </div>
+
+    <audio id="resetted" controls style="display:none">
+        <source src="sounds/start.mp3" type="audio/mpeg">
+    </audio>
+    <audio id="p1attack" controls style="display:none">
+        <source src="sounds/sword.mp3" type="audio/mpeg">
+    </audio>
+    <audio id="p1super" controls style="display:none">
+        <source src="sounds/thunder.mp3" type="audio/mpeg">
+    </audio>
+    <audio id="p1heal" controls style="display:none">
+        <source src="sounds/healing.mp3" type="audio/mpeg">
+    </audio>
+    <audio id="p2attack" controls style="display:none">
+        <source src="sounds/punch.mp3" type="audio/mpeg">
+    </audio>
+    <audio id="p2heal" controls style="display:none">
+        <source src="sounds/healing.mp3" type="audio/mpeg">
+    </audio>
+    <audio id="p2super" controls style="display:none">
+        <source src="sounds/thunder.mp3" type="audio/mpeg">
+    </audio>
+    <audio id="victory" controls style="display:none">
+        <source src="sounds/game-over.webm" type="audio/mpeg">
+    </audio>
+
+    <script src="app.js"></script>
+</body>
+
+</html>
