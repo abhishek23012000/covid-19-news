@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+        <title>HTML Project</title>
+    </head>
+</html>
+<!--Start Header-->
+<table id="header" border="0" width="100%" cellpadding="0" cellspacing="0" bgcolor="#f3971b">
+    <tr>
+        <td>
+            <table border="0" width="85%" cellpadding="15" cellspacing="0" align="center">
+                <tr>
+                    <td>
+                        <font face="arial" color="#000000" size="5">
+                            <span class="fa fa-user-circle" aria-hidden="true"></span>
+                            Satyam Gautam
+                        </font>
+                    </td>
+                    <td>
+                        <a href="#Home"><font face="arial" color="#ffffff" size="4">Home</font></a>
+                    </td>
+                    <td>
+                        <a href="#About"><font face="arial" color="#ffffff" size="4">About</font></a>
+                    </td>
+                    <td>
+                        <a href="#Photos"><font face="arial" color="#ffffff" size="4">Photos</font></a>
+                    </td>
+                    <td>
+                        <a href="#Family"><font face="arial" color="#ffffff" size="4">Family</font></a>
+                    </td>
+                    <td>
+                        <a href="#Educational Detail"><font face="arial" color="#ffffff" size="4">Educational Detail</font></a>
+                    </td>
+                    <td>
+                        <a href="#Footer  "><font face="arial" color="#ffffff" size="4">Contact</font></a>
+                    </td>
+                </tr>
+            </table>
+        </td>
+
+    </tr>
+
+
+         <!--Start Home-->
+    <table id="Home" border="0" width="100%" cellpadding="0" cellspacing="0" bgcolor="#292929">
+        <tr>
+            <td>
+                <table border="0" width="85%" cellpadding="15" cellspacing="0" align="center">
+                    <tr>
+                        <td align="center" valign="middle">
+                            <h3>
+                                <font face="arial" color="#ffffff" size="6">
+                                     Hi, I'm Satyam Kumar
+                                </font>
+                            </h3>
+                        
+                        <h2>
+                            <font face="arial" color="#f3971b" size="7">
+                                Satyam Gautam(Gauti)
+                           </font>
+                        </h2>
+                        </td>
+                    </tr>
+                </table>
+            </td>
+
+        </tr>
+
+
+    </table>
+    <!--End Home-->
+
+    <!--Start About-->
+    <table id="About" border="0" width="100%" cellpadding="0" cellspacing="0" bgcolor="#292929">
+        <tr>
+            <td>
+                <table border="0" width="85%" cellpadding="15" cellspacing="0" align="center">
+                    <!-- Heading Start-->
+                    <tr>
+                        <td height="180" align="center" valign="middle" colspan="2">
+                                <font face="arial" color="#f3971b" size="6">
+                                     About Me
+                                </font>
+                                <hr width="70" color="#f3971b">
+                        
+                        </td>
+                    </tr>
+                    <!--Heading End-->
+                    <tr>
+                        <td width="40%">
+                            <img src="C:\Users\91702\Downloads\Satyam Gautam.1.jpeg" alt="Satyam Gautam"  width="90%">
+                        </td>
+                        <td width="66%">
+                            <font face="arial" color="#ffffff" size="4">
+                                <h2>
+                                    I am a Student
+                                </h2>
+                                I am Satyam Kumar,born and brought up in jhanjharpur.My strength is my attitude, where I like to take up challenges and think to accept both success and failure in a balanced way to move forward. I do not like to say weaknesses, but I want to say that I do not leave any questions altogether. I believe in myself, the work I do, and I want fulfilment in everything.
+                                My short-term goal is to find a platform to inflate my career and grow with the organization. My long-term goal is to be the cause of the organization's success. My philosophy is "I always love to take challenges for my progress and steady growth".
+                                That's all about me!!
+                            </font>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            &nbsp;
+                        </td>
+                    </tr>
+                </table>
+            </td>
+
+        </tr>
+
+
+    </table>
+    <!--End About-->
+    <!--Start Photos-->
+    <table id="Photos" border="0" width="100%" height="100%" cellpadding="0" cellspacing="0" bgcolor="#c2c0c3">
+        <tr>
+            <td>
+                <table border="0" width="85%" cellpadding="15" cellspacing="0" align="center">
+                    <!-- Heading Start-->
+                    <tr>
+                        <td height="180" align="center" valign="middle" colspan="3">
+                                <font face="arial" color="#292929" size="6">
+                                     Photos
+                                </font>
+                                <hr width="70" color="#292929">
+                        
+                        </td>
+                    </tr>
+                    <!--Heading End-->
+                    <tr>
+                        <td width="33%">
+                            <img src="C:\Users\91702\Downloads\satyam.3.jpeg" alt="Photos1"  width="100%"></a>
+                        </td>
+                        <td width="33%" >
+                            <img src="C:\Users\91702\Downloads\satyam.2.jpeg" alt="Photo2"  width="100%"></a>
+                        </td>
+                        <td width="33%">
+                            <img src="C:\Users\91702\Downloads\Satyam Gautam.1.jpeg" alt="Photo 3"  width="100%"></a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td width="33%">
+                            <img src="C:\Users\91702\Downloads\photos.1.jpg" alt="Photo 4" width="100%"></a>
+                        </td>
+                        <td>
+                            <img src="C:\Users\91702\Downloads\photos.3.jpg" alt="photo 5" width="100%">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            &nbsp;
+                        </td>
+                    </tr>
+                </table>
+            </td>
+
+        </tr>
+
+
+    </table>
+    <!--End Photos-->
+
+     <!--Start Family-->
+     <table id="Family" border="0" width="100%" cellpadding="0" cellspacing="0" bgcolor="#353535">
+        <tr>
+            <td>
+                <table border="0" width="85%" cellpadding="15" cellspacing="0" align="center">
+                    <!-- Heading Start-->
+                    <tr>
+                        <td height="180" align="center" valign="middle" colspan="3">
+                                <font face="arial" color="#f3971b" size="6">
+                                     Family
+                                </font>
+                                <hr width="70" color="#f3971b">
+                        
+                        </td>
+                    </tr>
+                    <!--Heading End-->
+                    <tr>
+                        <td width="33%" valign="top">
+                            <font face="arial" color="#ffffff">
+                                <h3 align="center">Nutan Kumari</h3>
+                            </font>
+                            <font face="arial" color="#c2c0c3">
+                                Elder Sister of Satyam Gautam Born in 1998 Software Engineer At Kreatio Pvt.Ltd Bengaluru,karnatka,India Hometown-Jhanjharpur!
+                            </font>
+                        </td>
+                        <td width="33%" valign="top">
+                            <font face="arial" color="#ffffff">
+                                <h3 align="center">Chanda Kumari</h3>
+                            </font>
+                            <font face="arial" color="#c2c0c3">
+                                Younger Sister Of Satyam Gautam Born in 2002 Studying at A.N.M College Darbhanga,jalley Intermidiate from PLK High School Jhanjharpur!
+                            </font>
+                        </td>
+                        <td width="33%" valign="top">
+                            <font face="arial" color="#ffffff">
+                                <h3 align="center">Rajdev Prasad</h3>
+                            </font>
+                            <font face="arial" color="#c2c0c3">
+                                Father of Satyam Gautam (Buisnessmen) Owner of Gautam Stationary Near LNJ College gate Courtchowk Jhanjharpur,Madhubani
+                            </font>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="3">
+                            &nbsp;
+                        </td>
+                    </tr>
+                </table>
+            </td>
+
+        </tr>
+
+
+    </table>
+    <!--End Family-->
+    <!--Start Educational Detail-->
+    <table id="Educational Detail" border="0" width="100%" cellpadding="0" cellspacing="0" bgcolor="#c2c0c3">
+        <tr>
+            <td>
+                <table border="0" width="85%" cellpadding="15" cellspacing="0" align="center">
+                    <!-- Heading Start-->
+                    <tr>
+                        <td height="180" align="center" valign="middle" colspan="2">
+                                <font face="arial" color="#292929" size="6">
+                                     Educational Detail
+                                </font>
+                                <hr width="70" color="#292929">
+                        
+                        </td>
+                    </tr>
+                    <!--Heading End-->
+                    <tr>
+                        <td width="66%" valign="top">
+                           <font face="arial"color="#292929">
+                            <ul>
+                                <li>Started Study from MN Jha DAV Public School(2006-20016)</li>
+                                <li>Studying in Prashant Science Tutorial(P.S.T)(2008-2016)</li>
+                                <li>SSC from MN Jha DAV Public School Jhanjharpur Madhuabni in 2016</li>
+                                <li>Studying in Resonance Kota(2016-2018)</li>
+                                <li>HSC from Sanskar Bharti Global Public School Phulparas in 2018.</li>
+                                <li>Studying in career Point Kota in Year 2019</li>
+                                <li>Btech From Bengal Colle of Engineering and Technology(APpearing)</li>
+                            </ul>
+                           </font>
+                        </td>
+                        <td valign="top">
+                            <img src="C:\Users\91702\Downloads\photos.2.jpg" alt="Educational Detail"  width="90%">
+                        </td>
+                        
+                    </tr>
+                    <tr>
+                        <td>
+                            &nbsp;
+                        </td>
+                    </tr>
+                </table>
+            </td>
+
+        </tr>
+
+
+    </table>
+    <!--End Educational Detail-->
+   
+    <!--Start Footer-->
+    <table id="Footer--" border="1" width="100%" cellpadding="0" cellspacing="0" bgcolor="#353535">
+        <tr>
+            <td>
+                <table border="0" width="85%" cellpadding="15" cellspacing="0" align="center">
+                   
+                    <tr>
+                        <td width="25%" valign="top">
+                            <font face="arial" color="#f3971b" size="5">
+                                <span class="fa fa-facebook-square" aria-hidden="true"><a style="color: #f3971b;"<a href="https://www.facebook.com/profile.php?id=100008863683468">Facebook</a></span>
+                                
+                            </font>
+                            
+                        </td>
+                        <td width="25%" valign="top">
+                            <font face="arial" color="#f3971b" size="5">
+                                <span class="fa fa-twitter-square" aria-hidden="true"><a style="color: #f3971b;"<a href="https://twitter.com/SatyamG28025691>Twitter"</span>
+                                Twitter
+                            </font>
+                            
+                        </td>
+                        <td width="25%" valign="top">
+                            <font face="arial" color="#f3971b" size="5">
+                                <span class="fa fa-instagram" aria-hidden="true"> <a style="color:#f3971b;" href="https://www.instagram.com/_gautam.7_/">Instagram</a></span>
+                            </font>
+                            
+                        </td>
+                        <td width="25%" valign="top">
+                            <font face="arial" color="#f3971b" size="5">
+                                <span class="fa fa-linkedin-square" aria-hidden="true"><a style="color:#f3971b;";"<a href="https://www.linkedin.com/in/satyam-gautam/">linkedin</a></span>
+                                
+                            </font>
+                            
+                        </td>
+                        <td rowspan="2">
+                            <font face="arial" color="#ffffff" size="5">
+                                <span class="fa fa-arrow-circle-up" aria-hidden="true"></span>
+                             <a href="#header">
+                                <font face="arial" color="#ffffff" size="5">
+                                    Top
+                                </font>
+                                
+                            </a>
+                            </font>
+                            
+                        </td>
+                    </tr>
+                    <tr>
+                        <td width="25%" valign="top">
+                            <font face="arial" color="#f3971b" size="5">
+                                <span class="fa fa-youtube-square" aria-hidden="true"><a style="color: #f3971b;"<a href="https://www.youtube.com/channel/UCBWsVpBXF-0rkJ-0AbGM68g">YouTube</a></span>
+                                
+                            </font>
+                            
+                        </td>
+                        <td width="25%" valign="top">
+                            <font face="arial" color="#f3971b" size="5">
+                                <span class="fa fa-rss-square" aria-hidden="true"><a style="color: #f3971b;"<a href="https://www.blogger.com/profile/15307653016407379182">Blog</a></span>
+                                
+                            </font>
+                            
+                        </td>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="3">
+                            &nbsp;
+                        </td>
+                    </tr>
+                </table>
+            </td>
+
+        </tr>
+
+
+    </table>
+    <!--End Footer-->
+</body>
+</html>
